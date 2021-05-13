@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    display: flex;
+    
+}
+
+#logo img{
+    margin: 12px 33px;
+    height: 70px;
+    width: 131px;
+}
+#navbar{
+    position: absolute;
+   
+    background-color:transparent;
+}
+#navbar ul {
+    font-family: 'Baloo Paaji 2', cursive;
+    display: flex;
+    
+}
+#navbar::before{
+    content: " ";
+    background-color:whitesmoke;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    height: 100%;
+    width: 100%;  
+    z-index:-1;
+    opacity: 0.9;
+}
+#navbar ul li{
+    list-style: none;
+    font-size:18px;
+}
+#navbar ul li a{
+    color:whitesmoke;
+    display: block;
+    font-size: 23px;
+    padding:28px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-shadow: black;
+}
+#navbar ul li a:hover{
+   color:skyblue;
+}
+#home{
+    display:flex ;
+    flex-direction: column;
+    height: 490px;
+    align-items: center;
+    justify-content: center; 
+    padding:3px 200px;
+   
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    background-image:url(../bg1.p1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* top: 0px;
+    left: 0px; */
+    height: 100%;
+    width: 100%;  
+    z-index:-1;
+    opacity: 0.8;
+}
+ #home p{
+     margin: -8px;
+     font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Baloo Paaji 2', cursive;
+} 
+ #home h1{
+     margin: 10px 10px;
+    font-size: 50px;
+    color: rgb(80, 196, 241);
+    font-family: cursive;
+} 
+.btn{
+    border: 2px solid #008c8a;
+    margin: 5px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: mintcream;
+    border-radius: 12px;
+    color: black;
+    cursor:pointer;
+}
+.Aboutus{
+    display: flex;
+    margin: 130px 0px;
+    padding: 70px;
+    transition:transform 0.5s;
+    /* border-style: solid; */
+}
+.Aboutus :hover{
+   transform:translateY(-2px)
+}
+.Aboutus .ab1{
+    border-style: solid;
+    border-color: seagreen;
+    background: radial-gradient(#fff,#ffd6d6);
+    margin: 17px 35px;
+    padding: 26px;
+    border-radius: 20px;
+    
+}
+.Aboutus .ab1 h1{
+    margin: 20px 0px;
+    font-style: oblique;
+}
+.Aboutus .ab1 p{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.Aboutus .ab2{
+    border-style: solid;
+    border-color: seagreen;
+    background: radial-gradient(#fff,#ffd6d6);
+    margin: 17px 35px;
+    padding: 26px;
+    border-radius: 20px;
+}
+.Aboutus .ab2 h1{
+    font-style: oblique;
+}
+.Aboutus .ab2 p{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.section{
+    display: flex;
+    margin:-180px 359px;
+    height: 100%;
+    transition:transform 0.5s;
+}
+.section:hover{
+    transform:translateY(-5px);
+ }
+.section .ab3{
+    border-style: solid;
+    border-color: seagreen;
+    background: radial-gradient(#fff,#ddf3e9);
+    margin: 17px 35px;
+    padding: 26px;
+    border-radius: 20px;
+}
+.section .ab3 img{
+    display: flex;
+    /* margin: 16px 83px; */
+}
+.section .ab3 h1{
+    margin: 10px 0px;
+    font-style: oblique;
+}
+.section .ab3 p{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+.partners h1{
+    text-align: center;
+    font-size: 65px;
+    font-style: oblique;
+}
+.partners{
+    margin: 200px 362px;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    height: 186px;
+}
+.container{
+    display: flex;
+    margin: 12px 43px;
+}
+.smallbox{
+    display: flex;
+    margin: 35px 416px;
+}
+.smallbox .useful{
+    margin: 0px 46px;
+}
